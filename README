@@ -1,0 +1,30 @@
+#!/usr/bin/less
+
+################################################################################
+
+Package name	: spent.pm
+Version		: 0.1
+Description	: Perl package for reading shadow database
+License		: GNU GPL v2 or later (see file LICENSE)
+Author		: Samuel Behan <behan@frida.fri.utc.sk> (c) 2000-2001
+Homepage	: http://frida.fri.utc.sk/~behan/devel/spent or CPAN
+Requirements	: perl5.003 or newer
+
+################################################################################
+
+
+ABOUT
+-----
+	spent is a perl package for reading shadow database (/etc/shadow)
+  sequentialy like pwent does. I've done this package very quickly just
+  because one of my programs need it to work (passwd_exp), sory there
+  is lack of documentation....
+  <<TODO>>
+     + rw access
+     + pod documentation
+  <<BUGS && TIPS>>
+	Any bugs and tips send to <sam@frida.fri.utc.sk>. I need a litle
+  feedback from you, how does it works in real life, and perl version it
+  accepts.
+
+
